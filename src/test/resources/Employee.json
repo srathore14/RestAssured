@@ -1,0 +1,8 @@
+{
+  "name": {
+    "firstName": "$firstName",
+    "lastName": "$lastName"
+  },
+  "salary": "$salary",
+  "age": "$age"
+}
