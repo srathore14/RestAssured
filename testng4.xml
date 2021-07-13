@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Test1">
+	<classes>
+      <class name="CI.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test2">
+	<classes>
+      <class name="CI.RestvalidationTest"/> 
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

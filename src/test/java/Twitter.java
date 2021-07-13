@@ -31,8 +31,11 @@ public class Twitter {
 	@Test
 	public void postTweet() {
 
-		given().auth().oauth("9BuTqcAbO2GeRE4U7dJbU4UAi", "r4CtdxE8swrOlSsyVgP92oz4LIgnDdZfP4KzO1l3s4IxRvClL2",
-				"1172521631542960128-97R2WVXXJPqYwoqTfg4wObBajgKje4", "EkkmNTBlnpev9I0uDRTEr4rnb0J3mh24VuLDGAk1TASYz")
+		given().auth()
+				.oauth("9BuTqcAbO2GeRE4U7dJbU4UAi",
+						"r4CtdxE8swrOlSsyVgP92oz4LIgnDdZfP4KzO1l3s4IxRvClL2",
+						"1172521631542960128-97R2WVXXJPqYwoqTfg4wObBajgKje4",
+						"EkkmNTBlnpev9I0uDRTEr4rnb0J3mh24VuLDGAk1TASYz")
 				.param("status", "This is my Rest Assured tweet").post("update.json").then().log();
 
 	}
