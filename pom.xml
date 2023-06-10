@@ -19,7 +19,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\EclipseWs\MyRestProject\src\test\resources\testng.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}l</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
